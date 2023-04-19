@@ -1,5 +1,5 @@
 <?php
-namespace Clearlyip\LaravelFlagsmith;
+namespace Rikj000\LaravelFlagsmith;
 
 use Flagsmith\Flagsmith;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
@@ -54,7 +54,7 @@ class ServiceProvider extends LaravelServiceProvider
         $this->loadRoutesFrom(dirname(__DIR__) . '/routes/flagsmith.php');
 
         Event::listen(\Illuminate\Auth\Events\Login::class, [
-            \Clearlyip\LaravelFlagsmith\Listeners\UserLogin::class,
+            \Rikj000\LaravelFlagsmith\Listeners\UserLogin::class,
             'handle',
         ]);
     }

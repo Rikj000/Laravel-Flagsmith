@@ -1,5 +1,5 @@
 {
-	"name": "@clearlyip/laravel-flagsmith",
+	"name": "@rikj000/laravel-flagsmith",
 	"version": "1.0.0",
 	"main": "index.js",
 	"directories": {
@@ -8,7 +8,7 @@
 	"private": true,
 	"repository": {
 		"type": "git",
-		"url": "ssh://git@github.com:clearlyip/laravel-flagsmith.git"
+		"url": "ssh://git@github.com:rikj000/laravel-flagsmith.git"
 	},
 	"author": "",
 	"license": "BSD 3-Clause",

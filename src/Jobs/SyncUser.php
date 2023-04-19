@@ -1,5 +1,5 @@
 <?php
-namespace Clearlyip\LaravelFlagsmith\Jobs;
+namespace Rikj000\LaravelFlagsmith\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

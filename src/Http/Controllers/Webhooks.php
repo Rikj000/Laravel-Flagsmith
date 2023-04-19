@@ -1,5 +1,5 @@
 <?php
-namespace Clearlyip\LaravelFlagsmith\Http\Controllers;
+namespace Rikj000\LaravelFlagsmith\Http\Controllers;
 
 use Flagsmith\Flagsmith;
 use Flagsmith\Models\Identity;

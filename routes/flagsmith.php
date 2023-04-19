@@ -1,6 +1,6 @@
 <?php
 
-use Clearlyip\LaravelFlagsmith\Http\Controllers\Webhooks;
+use Rikj000\LaravelFlagsmith\Http\Controllers\Webhooks;
 use Illuminate\Support\Facades\Route;
 
 if (!empty(config('flagsmith.webhooks.feature.route'))) {

@@ -1,7 +1,7 @@
 <?php
-namespace Clearlyip\LaravelFlagsmith\Listeners;
+namespace Rikj000\LaravelFlagsmith\Listeners;
 
-use Clearlyip\LaravelFlagsmith\Jobs\SyncUser;
+use Rikj000\LaravelFlagsmith\Jobs\SyncUser;
 use Illuminate\Auth\Events\Login;
 
 class UserLogin

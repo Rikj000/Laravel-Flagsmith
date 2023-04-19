@@ -1,5 +1,5 @@
 {
-    "name": "clearlyip/laravel-flagsmith",
+    "name": "rikj000/laravel-flagsmith",
     "description": "A Flagsmith client for Laravel",
     "type": "library",
     "license": "BSD-3-Clause",
@@ -7,6 +7,12 @@
         {
             "name": "Andrew Nagy",
             "email": "anagy@clearlyip.com"
+        },
+        {
+            "name": "Rik Helsen",
+            "email": "rik_helsen@hotmail.com",
+            "homepage": "https://github.com/rikj000",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -17,13 +23,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Clearlyip\\LaravelFlagsmith\\ServiceProvider"
+                "Rikj000\\LaravelFlagsmith\\ServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Clearlyip\\LaravelFlagsmith\\": "src"
+            "Rikj000\\LaravelFlagsmith\\": "src"
         }
     },
     "require-dev": {

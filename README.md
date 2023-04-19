@@ -3,9 +3,9 @@
 Laravel-flagsmith was created by, and is maintained by **[Andrew Nagy](https://github.com/tm1000)**, the package is designed to allow Laravel to work with [Flagsmith](https://flagsmith.com/)
 
 <p align="center">
-<a href="https://packagist.org/packages/clearlyip/laravel-flagsmith"><img src="https://img.shields.io/packagist/dt/clearlyip/laravel-flagsmith" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/clearlyip/laravel-flagsmith"><img src="https://img.shields.io/packagist/v/clearlyip/laravel-flagsmith" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/clearlyip/laravel-flagsmith"><img src="https://img.shields.io/packagist/l/clearlyip/laravel-flagsmith" alt="License"></a>
+<a href="https://packagist.org/packages/rikj000/laravel-flagsmith"><img src="https://img.shields.io/packagist/dt/rikj000/laravel-flagsmith" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/rikj000/laravel-flagsmith"><img src="https://img.shields.io/packagist/v/rikj000/laravel-flagsmith" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/rikj000/laravel-flagsmith"><img src="https://img.shields.io/packagist/l/rikj000/laravel-flagsmith" alt="License"></a>
 </p>
 
 ## Features
@@ -23,7 +23,7 @@ Laravel-flagsmith was created by, and is maintained by **[Andrew Nagy](https://g
 Require Laravel-flagsmith using [Composer](https://getcomposer.org):
 
 ```bash
-composer require clearlyip/laravel-flagsmith
+composer require rikj000/laravel-flagsmith
 ```
 
 ## Laravel Version Compatibility
@@ -43,7 +43,7 @@ All options are fully documented in the configuration file
 
 ### User
 
-It's advised to add the trait `Clearlyip\LaravelFlagsmith\Concerns\HasFeatures` to your user model. This will give you the ability to access features directly from your user object.
+It's advised to add the trait `Rikj000\LaravelFlagsmith\Concerns\HasFeatures` to your user model. This will give you the ability to access features directly from your user object.
 
 During inital login user features are synced through a queue which keeps them as up to date as possible
 
